@@ -1,0 +1,97 @@
+body{
+  height: auto;
+  margin: 0;
+  background-color: #c1d5ea;
+}
+
+@font-face {
+  font-family: Cookie;
+  src: url(Cookie.otf);
+}
+@font-face {
+  font-family: Resto;
+  src: url(Resto.otf);
+}
+
+.navbar {
+  background-color: #c1d5ea;
+}
+
+.navbar a {
+  float: left;
+  color: #3b4b94;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: 0.5s;
+}
+
+.navbar a:hover {
+  color: #ff9939;
+  font-size: 25px;
+}
+
+.navbar a.active {
+  background-color: #397fcf;
+  color: white;
+  border-radius: 25px;
+}
+
+.logo{
+  position: absolute;
+}
+
+.navigasi{
+  position: absolute;
+  right: 0;
+  font-family: Cookie;
+  padding-top: 30px;
+  padding-right: 15px;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.text {
+  text-align: center;
+  font-size: 18px;
+  font-family: monospace;
+  margin: 50px;
+  padding-bottom: 20px;
+}
+
+.text h4{
+  font-family: Resto;
+  font-size: 50px;
+}
+
+.pesan a {
+  color: #ffff;
+  padding-top: 10cm;
+  background-color: #3b4b94;
+  border-radius: 20px;
+  text-align: center;
+  font-family: Cookie;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  transition: 0.5s;
+}
+
+.pesan a:hover{
+  background-color: #ff9939;
+  font-size: 35px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.footer {
+  background-color: #272727;
+  padding: 10px;
+  bottom: 0;
+  text-align: center;
+  color: white;
+ }
+  
